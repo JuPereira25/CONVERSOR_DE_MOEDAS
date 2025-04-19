@@ -15,17 +15,19 @@ O aplicativo permite que o usuário selecione a moeda de origem e permite que o 
 ## Requisitos ##
 Para rodar este projeto, você precisará do Python 3.11.2 e das seguintes bibliotecas:
 
-customtkinter: Biblioteca para a interface gráfica.
+   ° customtkinter: Biblioteca para a interface gráfica.
 
-requests: Usada para fazer requisições HTTP para obter as cotações de moedas.
+   ° requests: Usada para fazer requisições HTTP para obter as cotações de moedas.
 
-xmltodict: Usada para ler e parsear arquivos XML de conversões disponíveis.
+   ° xmltodict: Usada para ler e parsear arquivos XML de conversões disponíveis.
 
 Você pode instalar as dependências necessárias usando o pip:
 
+<pre>
 $$ pip install customtkinter $$
 $$ pip install requests $$
 $$ pip install xmltodict $$
+</pre>
 
 ## Estrutura do Projeto ##
 
@@ -34,7 +36,7 @@ $$ pip install xmltodict $$
 ├── main.py               # Arquivo principal do aplicativo
 ├── pegar_moedas.py       # Funções para carregar as moedas disponíveis
 ├── pegar_cotacao.py      # Função para obter a conversao da moeda via API
-└──  conversoes.xml        # Arquivo XML com as conversões disponíveis
+└── conversoes.xml        # Arquivo XML com as conversões disponíveis
 </pre>
 
 ## Como Funciona ## 
