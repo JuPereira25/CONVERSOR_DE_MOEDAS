@@ -2,7 +2,7 @@
 Este é um conversor de moeda desenvolvido com Python usando a biblioteca customtkinter para a interface gráfica. 
 O aplicativo permite que o usuário selecione a moeda de origem e permite que o usuário converta um valor entre essas moedas.
 
-![image](https://github.com/user-attachments/assets/58e5e5f1-dd12-4bcd-bbf9-7778b578670a)
+![image](https://github.com/user-attachments/assets/b4aea255-886f-4397-b2f9-28e4ea50d0a4)
 
 ## Funcionalidades ##
 
