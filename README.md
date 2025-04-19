@@ -6,11 +6,11 @@ O aplicativo permite que o usuário selecione a moeda de origem e permite que o 
 
 ## Funcionalidades ##
 
-   ° Conversão de Moeda: 
+   ° Conversão de Moeda
 
-   ° Seleção de Moeda de Origem e Destino: 
+   ° Seleção de Moeda de Origem e Destino 
 
-   ° Visualização da Conversão: 
+   ° Visualização da Conversão
 
 ## Requisitos ##
 Para rodar este projeto, você precisará do Python 3.11.2 e das seguintes bibliotecas:
