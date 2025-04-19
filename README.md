@@ -29,7 +29,7 @@ $$ pip install xmltodict $$
 
 ## Estrutura do Projeto ##
 
-<pre> ```text Conversor de Moeda/
+<pre> ``` Conversor de Moeda/
 │
 ├── main.py               # Arquivo principal do aplicativo
 ├── pegar_moedas.py       # Funções para carregar as moedas disponíveis
