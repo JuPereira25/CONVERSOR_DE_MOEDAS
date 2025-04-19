@@ -29,12 +29,13 @@ $$ pip install xmltodict $$
 
 ## Estrutura do Projeto ##
 
-Conversor de Moeda/
-° │
-° ├── main.py               # Arquivo principal do aplicativo
-° ├── pegar_moedas.py       # Funções para carregar as moedas disponíveis
-° ├── pegar_cotacao.py      # Função para obter a conversao da moeda via API
-° └──  conversoes.xml        # Arquivo XML com as conversões disponíveis
+<pre> ```text Conversor de Moeda/
+│
+├── main.py               # Arquivo principal do aplicativo
+├── pegar_moedas.py       # Funções para carregar as moedas disponíveis
+├── pegar_cotacao.py      # Função para obter a conversao da moeda via API
+└──  conversoes.xml        # Arquivo XML com as conversões disponíveis
+```</pre>
 
 ## Como Funciona ## 
 1. Inserir um valor:
