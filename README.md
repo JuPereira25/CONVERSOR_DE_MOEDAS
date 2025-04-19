@@ -24,9 +24,9 @@ Para rodar este projeto, você precisará do Python 3.11.2 e das seguintes bibli
 Você pode instalar as dependências necessárias usando o pip:
 
 <pre>
-$$ pip install customtkinter $$
-$$ pip install requests $$
-$$ pip install xmltodict $$
+ pip install customtkinter
+ pip install requests 
+ pip install xmltodict 
 </pre>
 
 ## Estrutura do Projeto ##
