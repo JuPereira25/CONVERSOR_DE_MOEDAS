@@ -6,14 +6,14 @@ O aplicativo permite que o usuário selecione a moeda de origem e permite que o 
 
 ## Funcionalidades ##
 
-Conversão de Moeda: 
+   ° Conversão de Moeda: 
 
-Seleção de Moeda de Origem e Destino: 
+   ° Seleção de Moeda de Origem e Destino: 
 
-Visualização da Conversão: 
+   ° Visualização da Conversão: 
 
 ## Requisitos ##
-Para rodar este projeto, você precisará do Python 3.x e das seguintes bibliotecas:
+Para rodar este projeto, você precisará do Python 3.11.2 e das seguintes bibliotecas:
 
 customtkinter: Biblioteca para a interface gráfica.
 
@@ -23,18 +23,20 @@ xmltodict: Usada para ler e parsear arquivos XML de conversões disponíveis.
 
 Você pode instalar as dependências necessárias usando o pip:
 
-$$ pip install customtkinter requests xmltodict $$
+$$ pip install customtkinter $$
+$$ pip install requests $$
+$$ pip install xmltodict $$
 
 ## Estrutura do Projeto ##
 
 Conversor de Moeda/
-│
-├── main.py               # Arquivo principal do aplicativo
-├── pegar_moedas.py       # Funções para carregar as moedas disponíveis
-├── pegar_cotacao.py      # Função para obter a cotação da moeda via API
-└──  conversoes.xml        # Arquivo XML com as conversões disponíveis
+° │
+° ├── main.py               # Arquivo principal do aplicativo
+° ├── pegar_moedas.py       # Funções para carregar as moedas disponíveis
+° ├── pegar_cotacao.py      # Função para obter a conversao da moeda via API
+° └──  conversoes.xml        # Arquivo XML com as conversões disponíveis
 
-Como Funciona
+## Como Funciona ## 
 1. Inserir um valor:
    O usuário insere um valor para converter.
 
